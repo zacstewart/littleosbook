@@ -129,7 +129,7 @@ GDT can be loaded with the assembly code shown below:
 It might be easier if you make this instruction available from C, the same way
 as was done with the assembly code instructions `in` and `out`.
 
-After the GDT has been loaded the segment registers needs to be loaded with
+After the GDT has been loaded, the segment registers needs to be loaded with
 their corresponding segment selectors. The content of a segment selector is
 described in the figure and table below:
 
